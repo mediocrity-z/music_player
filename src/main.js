@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import ElementUI, { Empty ,Avatar, Button ,Col,Input, TabPane, Tabs ,Message,  Badge} from 'element-ui';
+import ElementUI, { Empty ,Avatar, Button ,Col,Input, TabPane, Tabs ,Message,  Badge,Autocomplete} from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import 'element-ui/lib/theme-chalk/base.css';
 import axios from 'axios'
@@ -28,6 +28,7 @@ Vue.use(Col)
 Vue.use(Avatar)
 Vue.use(Badge)
 Vue.use(Empty)
+Vue.use(Autocomplete)
 Vue.prototype.$http=axios
 Vue.prototype.$message=Message
 Vue.config.productionTip = false
